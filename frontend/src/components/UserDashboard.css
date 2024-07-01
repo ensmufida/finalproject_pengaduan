@@ -1,0 +1,105 @@
+.header-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-container img {
+  width: 100px;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #002147;
+  color: white;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.signout-button {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.infoBox {
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.infoBox.blue {
+  background-color: #2196F3;
+}
+
+.infoBox.red {
+  background-color: #F44336;
+}
+
+.infoBox.green {
+  background-color: #4CAF50;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.action-buttons .MuiSvgIcon-root {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
